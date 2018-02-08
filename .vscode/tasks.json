@@ -21,6 +21,15 @@
                 "local",
                 "web"
             ]
+        },
+        {
+            "label": "remote",
+            "type": "shell",
+            "command": "heroku",
+            "args": [
+                "open"
+            ],
+            "problemMatcher": []
         }
     ]
 }
